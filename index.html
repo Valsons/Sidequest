@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>SideQuest</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+
+    <!-- Header -->
+  <div class="container">
+    <div class="title">Sidequest</div>
+    <div id="today">date_default</div>
+    <div class="item">
+      <div class="subtitle">Welcome to sidequest, a travel companion into your coding adventures !</div>
+      <div class="subtitle" id="daily_count">Completed quests : 0/5</div>
+    </div>
+  </div>
+
+    <!-- Quest items -->
+  <div class="container">
+    <div class="content">Questlog</div>
+    <div class="quest-item">
+      <div class="quest-win" id ="quest_1_result">✓</div>
+      <img class="quest-logo" src="img/Firefox_logo.png" alt="quest_logo" id="quest_1_logo"/>
+      <div id="quest_1_command">quest_command_default_1</div>
+      <div class="quest-info" id="quest_1_description">quest_desc_default_1</div>
+    </div>
+    <div class="quest-item">
+      <div class="quest-win" id ="quest_2_result">✓</div>
+      <img class="quest-logo" src="img/Firefox_logo.png" alt="quest_logo" id="quest_2_logo"/>
+      <div id="quest_2_command">quest_command_default_2</div>
+      <div class="quest-info" id="quest_2_description">quest_desc_default_2</div>
+    </div>
+    <div class="quest-item">
+      <div class="quest-win" id ="quest_3_result">✓</div>
+      <img class="quest-logo" src="img/Firefox_logo.png" alt="quest_logo" id="quest_3_logo"/>
+      <div id="quest_3_command">quest_command_default_3</div>
+      <div class="quest-info" id="quest_3_description">quest_desc_default_3</div>
+    </div>
+    <div class="quest-item">
+      <div class="quest-win" id ="quest_4_result">✓</div>
+      <img class="quest-logo" src="img/Firefox_logo.png" alt="quest_logo" id="quest_4_logo"/>
+      <div id="quest_4_command">quest_command_default_4</div>
+      <div class="quest-info" id="quest_4_description">quest_desc_default_4</div>
+    </div>
+    <div class="quest-item">
+      <div class="quest-win" id ="quest_5_result">✓</div>
+      <img class="quest-logo" src="img/Firefox_logo.png" alt="quest_logo" id="quest_5_logo"/>
+      <div id="quest_5_command">quest_command_default_5</div>
+      <div class="quest-info" id="quest_5_description">quest_desc_default_5</div>
+    </div>
+  </div>
+
+  <script src="quest.js"></script>
+  </body>
+</html>

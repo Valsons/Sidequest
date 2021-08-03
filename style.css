@@ -1,0 +1,85 @@
+/* General */
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    height: 20%;
+}
+.item {
+    border-radius: 10px;
+}
+.title {
+    font-size: xx-large;
+    font-family: fantasy;
+    color: darkgoldenrod;
+}
+.subtitle {
+    font-size: xx-small;
+    font-family: fantasy;
+    color: gray;
+}
+.content {
+    margin-top: 30px;
+    font-family: fantasy;
+    color: gray;
+}
+body {
+    background-image: url("img/fond.png");
+    font-family: fantasy;
+}
+.quest-button-accept {
+    width: 30px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+/* Quest handling */
+.quest-win {
+    color: green;
+}
+.quest-tbd {
+    color: red;
+}
+.quest-logo {
+    width: 15px;
+    height: 15px;
+}
+.quest-item {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.quest-info {
+    font-size: xx-small;
+    font-family: fantasy;
+    color: gray;
+    margin-left: 30px;
+    width: 80%;
+
+}
+.quest-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.quest-container-item {
+
+}
+
+/* Button */
+.button-refresh {
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    margin-left: 200px;
+    text-align: center;
+}
+.button-refresh:hover {
+    border: 1px solid black;
+    color: darkgoldenrod;
+}
